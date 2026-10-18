@@ -2,6 +2,8 @@
 
 Point it at a folder of GST invoices (PDFs or phone photos) and it gives you a CSV of everything on them, plus a list of the ones you shouldn't claim input tax credit on yet. A local open-weight vision model reads the invoices, so they never leave your machine.
 
+![gstsort output on the ten sample invoices](docs/run.png)
+
 ```
 $ gstsort -gstin 27AKXPS4821M1Z7 samples/
 ...
